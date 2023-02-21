@@ -1,12 +1,13 @@
 package aplication;
 
+import tabuleiro.posição;
+
 public class Program {
 
 	public static void main(String[] args) {
-	int a = 7 ;
-	int b = 3 ;
-	int soma = a + b;
-		System.out.println(soma);
-	}
 
+		posição po = new posição(2 , 3);
+
+		System.out.println(po);
+	}
 }
